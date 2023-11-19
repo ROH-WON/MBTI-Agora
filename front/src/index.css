@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+.toastui-editor-contents p,
+.toastui-editor-contents h1,
+.toastui-editor-contents h2,
+.toastui-editor-contents h3,
+.toastui-editor-contents h4,
+.toastui-editor-contents h5,
+.toastui-editor-contents h6 {
+	margin: 0px !important;
+	font-family: 'Noto Sans KR', 'sans-serif';
+	font-size: 1.0rem;
+}
